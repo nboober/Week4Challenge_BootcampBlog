@@ -1,0 +1,49 @@
+body{
+    background: url("https://res.cloudinary.com/jleplerwt/image/upload/v1562858322/WeeklyChallenge/5022234-java-computer-minimalism-logo_mr4iha.png");
+    background-size: cover;
+}
+
+.container{
+    background: beige;
+    height: 70vh;
+    margin-top: 5%;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: saddlebrown;
+}
+
+.text{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.example{
+    background-color: darkgray;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.home-container{
+    width: 70%;
+    margin: 5% auto;
+
+}
+.card-container{
+    width: 50%;
+    margin: 5% auto;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.footer-text{
+    color: azure;
+}
