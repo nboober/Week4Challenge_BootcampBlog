@@ -8,13 +8,59 @@
 
 <div class="container">
     <div class="title">
-        ArrayLists
+        Classes
     </div>
     <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis ducimus enim excepturi explicabo fugiat, illo incidunt nulla reprehenderit, sit vel voluptatibus? Atque dolores facilis iusto officia repudiandae sapiente? Qui!
-    </div>
+        Classes and Objects are basic concepts of Object Oriented Programming which revolve around the real life entities.
+        <br/>
+        <br/>
+        A class is a user defined blueprint or prototype from which objects are created.  It represents the set of properties or methods that are common to all objects of one type.     </div>
     <div class="example">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur dolor, doloribus dolorum enim eveniet explicabo in, ipsam iste iusto nulla quas qui rerum sunt tenetur unde veritatis vero voluptatum.
+        // Class Declaration
+        <br/>
+        public class Dog
+        <br/>
+        {
+        <br/>
+        // Instance Variables
+        <br/>
+        String name;
+        <br/>
+        String breed;
+        <br/>
+        int age;
+        <br/>
+        String color;
+        <br/>
+        <br/>
+
+        // Constructor Declaration of Class
+        <br/>
+        public Dog(String name, String breed,int age, String color)
+        <br/>
+        {
+        <br/>
+        this.name = name;
+        <br/>
+        this.breed = breed;
+        <br/>
+        this.age = age;
+        <br/>
+        this.color = color;
+        <br/>
+        }
+        <br/>
+        <br/>
+
+        // method
+        <br/>
+        public String getName()
+        <br/>
+        {
+        <br/>
+        return name;
+        <br/>
+        }
     </div>
 </div>
 <footer th:insert="base::footer"></footer>

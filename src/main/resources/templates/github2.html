@@ -6,15 +6,76 @@
 <body>
 <div th:insert="base::navbar"></div>
 
+
 <div class="container">
     <div class="title">
-        ArrayLists
+        Git Walkthrough
     </div>
     <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis ducimus enim excepturi explicabo fugiat, illo incidunt nulla reprehenderit, sit vel voluptatibus? Atque dolores facilis iusto officia repudiandae sapiente? Qui!
-    </div>
-    <div class="example">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur dolor, doloribus dolorum enim eveniet explicabo in, ipsam iste iusto nulla quas qui rerum sunt tenetur unde veritatis vero voluptatum.
+
+        <div class="git-table">
+            <table>
+                <tr>
+                    <th>Command</th>
+                    <th>Explanation</th>
+                </tr>
+                <tr>
+                    <td>git help</td>
+                    <td>The only command you can't forget is help. This will help you find the other commands.</td>
+                </tr>
+                <tr>
+                    <td>git config -l</td>
+                    <td>Use the lower-case L to list or view the settings in your configuration. The important parts are
+                        the remote, user.name and user.email
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>echo # Products >> README.md</td>
+
+                    <td>The first commit can be a README file with as little as one line summary of the project, or
+                        enough information about the project's first milestone. The broad topics can also include:
+                        - Introduction
+                        - Project description
+                        - Project structure
+                        - Coding conventions
+                    </td>
+                </tr>
+                <tr>
+                    <td>git init</td>
+
+                    <td>The git init command creates a new Git repository. It can be used to convert an existing,
+                        un-versioned project to a Git repository or initialize a new empty repository. This is the first
+                        command you’ll run in a new project.
+
+                        git init creates a .git subdirectory in your project directory which all of the information git
+                        needs for your repository. The rest of an existing project is unchanged.
+                    </td>
+                </tr>
+                <tr>
+                    <td>git add README.md</td>
+
+                    <td>Adds the README file to the index</td>
+                </tr>
+                <tr>
+                    <td>git commit -m "first commit"</td>
+
+                    <td>The first commit is usually called initial commit or First commit or something similar depending
+                        on your preferences. I prefer to get this out of the way and commit before adding many files.
+                        From then on I only work from a branch
+                    </td>
+                </tr>
+                <tr>
+                    <td>git remote add origin https://github.com/dave45678/Products.git</td>
+
+                    <td>git remote is used to add a new remote section called origin to our configuration. You can view
+                        he config file on windows using the type command. On unix this command is called cat.
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
     </div>
 </div>
 <footer th:insert="base::footer"></footer>

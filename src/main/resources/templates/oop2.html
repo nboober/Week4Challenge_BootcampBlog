@@ -8,13 +8,34 @@
 
 <div class="container">
     <div class="title">
-        ArrayLists
+        Methods
     </div>
     <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis ducimus enim excepturi explicabo fugiat, illo incidunt nulla reprehenderit, sit vel voluptatibus? Atque dolores facilis iusto officia repudiandae sapiente? Qui!
-    </div>
+        A method is a set of code which is referred to by name and can be called (invoked) at any point in a program simply by utilizing the method's name.  Think of a method as a subprogram that acts on data and often returns a value.
+        <br/>
+        <br/>
+        Each method has its own name.  When that name is encountered in a program, the execution of the program branches to the body of that method.  When the method is finished, execution returns to the area of the program code from which it was called, and the program continues on to the next line of code.    </div>
     <div class="example">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur dolor, doloribus dolorum enim eveniet explicabo in, ipsam iste iusto nulla quas qui rerum sunt tenetur unde veritatis vero voluptatum.
+        public class MyClass {
+        <br/>
+        <br/>
+        static int myMethod(int x) {
+        <br/>
+        return 5 + x;
+        <br/>
+        }
+        <br/>
+        <br/>
+
+        public static void main(String[] args) {
+        <br/>
+        System.out.println(myMethod(3));
+        <br/>
+        }
+        <br/>
+        }
+        <br/>
+        // Outputs 8 (5 + 3)
     </div>
 </div>
 <footer th:insert="base::footer"></footer>

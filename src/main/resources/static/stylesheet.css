@@ -1,11 +1,11 @@
 body{
-    background: url("https://res.cloudinary.com/jleplerwt/image/upload/v1562858322/WeeklyChallenge/5022234-java-computer-minimalism-logo_mr4iha.png");
+    background: url("https://res.cloudinary.com/jleplerwt/image/upload/v1562858322/WeeklyChallenge/5022234-java-computer-minimalism-logo_mr4iha.png") no-repeat, url("https://res.cloudinary.com/jleplerwt/image/upload/e_gradient_fade:43/a_vflip/v1562858322/WeeklyChallenge/5022234-java-computer-minimalism-logo_mr4iha.png");
     background-size: cover;
 }
 
 .container{
     background: beige;
-    height: 70vh;
+    /*height: 70vh;*/
     margin-top: 5%;
     border-radius: 25px;
     padding: 20px;
@@ -30,18 +30,22 @@ body{
 }
 .home-container{
     width: 70%;
-    margin: 5% auto;
+    margin: 2% auto;
 
 }
 .card-container{
-    width: 50%;
-    margin: 5% auto;
+    width: 60%;
+    margin: 2% auto;
+}
+
+td{
+    padding: 15px;
 }
 
 footer{
     position:absolute;
-    bottom:0;
     width: 100%;
+    bottom:0;
 }
 
 .footer-text{
