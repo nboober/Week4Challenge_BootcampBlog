@@ -3,6 +3,10 @@ body{
     background-size: cover;
 }
 
+.center{
+    text-align: center;
+}
+
 .container{
     background: beige;
     /*height: 70vh;*/
@@ -42,10 +46,15 @@ td{
     padding: 15px;
 }
 
-footer{
+.footer-1{
     position:absolute;
     width: 100%;
     bottom:0;
+}
+
+.footer-2{
+    position:absolute;
+    width: 100%;
 }
 
 .footer-text{
