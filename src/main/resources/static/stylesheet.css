@@ -7,9 +7,23 @@ body{
     text-align: center;
 }
 
-.card-body{
-    background: beige;
+.btn{
+    border-radius: 20px/20px;
+    color: black;
 }
+
+.card-title{
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+}
+
+.card-text{
+    font-size: 22px;
+    color: #fff84e;
+    font-family: 'Indie Flower', cursive;
+}
+
 
 .container{
     background: beige;
@@ -24,6 +38,7 @@ body{
     font-weight: bold;
     font-size: 25px;
     color: saddlebrown;
+    font-family: 'Indie Flower', cursive;
 }
 
 .text{
@@ -45,6 +60,26 @@ body{
     width: 60%;
     margin: 2% auto;
 }
+
+
+
+.frosted-card {
+    background-color: rgba(255,255,255,.05) ;
+    overflow: hidden;
+}
+
+.frosted-card:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 0 0 1000px rgba(0,0,0,.5);
+    filter: blur(40px);
+}
+
 
 td{
     padding: 15px;
