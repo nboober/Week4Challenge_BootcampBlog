@@ -7,6 +7,10 @@ body{
     text-align: center;
 }
 
+.card-body{
+    background: beige;
+}
+
 .container{
     background: beige;
     /*height: 70vh;*/
